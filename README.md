@@ -33,7 +33,7 @@ Admin pages: `/admin/login`, `/admin` (dashboard), `/admin/hotels`, `/admin/room
 ## How booking works
 1. Guest searches by city, dates and guests → only hotels with a free room are shown.
 2. Guest picks a room → `POST /bookings` **holds** the room for `ROOM_HOLD_MINUTES` (default 10).
-3. Guest pays on the checkout page → booking becomes `confirmed` and an email receipt is sent.
+3. Guest completes the demo payment on the checkout page → booking becomes confirmed. Email receipts depend on the email configuration.
 4. Front desk marks the guest `checked_in` → `checked_out` (admin → Bookings).
 5. After check-out the guest can review the hotel.
 
