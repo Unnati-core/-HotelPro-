@@ -17,7 +17,7 @@ npm run dev      # API on http://localhost:5000
 ```
 Check: open http://localhost:5000/api/health
 
-Admin login (from .env): `admin@hotelpro.com` / `Admin@123`
+Admin access requires valid credentials configured for the application.
 
 ## 3. Run the frontend (separate terminal - keep the backend running)
 ```bash
